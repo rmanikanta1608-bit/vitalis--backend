@@ -19,6 +19,7 @@ app.use("/api/triage", triageRoutes);
 // Static frontend (login page is public; app.html checks auth client-side
 // via /api/auth/me and redirects to /login.html if not signed in)
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/data", express.static(path.join(__dirname, "data")));
 
 app.get("/", (req, res) => {
   res.redirect("/app.html");

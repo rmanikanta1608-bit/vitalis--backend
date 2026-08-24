@@ -57,13 +57,12 @@ function nearestHospitals({ dept, secondary, urgency, trauma, lat, lng, limit = 
 
   // If no specialty match is found, use all valid nearby facilities
   if (candidates.length === 0) {
-    candidates = hospitals.filter(
-      (h) =>
-        Number.isFinite(h.lat) &&
-        Number.isFinite(h.lng)
-    );
-  }
-
+  candidates = hospitals.filter(
+    (h) =>
+      Number.isFinite(h.lat) &&
+      Number.isFinite(h.lng)
+  );
+}
   // For emergency cases, prefer emergency-marked hospitals
   if (urgency === "Emergency") {
     const emergencyHospitals = candidates.filter((h) => h.emergency);

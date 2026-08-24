@@ -21,7 +21,8 @@
       "ENT",
       "Bariatric Surgery",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H002",
@@ -43,7 +44,8 @@
       "Spine Surgery",
       "Radiation Oncology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Ameerpet"
   },
   {
     "id": "H003",
@@ -63,7 +65,8 @@
       "General Medicine",
       "Gastroenterology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
   },
   {
     "id": "H004",
@@ -82,7 +85,8 @@
       "Orthopaedics",
       "Obstetrics and Gynecology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Saidabad"
   },
   {
     "id": "H005",
@@ -101,7 +105,8 @@
       "General Medicine",
       "Gastroenterology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H006",
@@ -122,7 +127,8 @@
       "Urology",
       "Nephrology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
   },
   {
     "id": "H007",
@@ -142,7 +148,8 @@
       "Fetal Medicine",
       "Pediatric Neurology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H008",
@@ -162,7 +169,8 @@
       "General Medicine",
       "Orthopaedics",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H009",
@@ -182,7 +190,8 @@
       "Pediatrics",
       "Transplant",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H010",
@@ -201,7 +210,8 @@
       "General Medicine",
       "Oncology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H011",
@@ -227,7 +237,8 @@
       "Obstetrics and Gynecology",
       "Emergency Medicine",
       "Neurosurgery"
-    ]
+    ],
+    "mandal": "Khairatabad"
   },
   {
     "id": "H012",
@@ -247,7 +258,8 @@
       "Surgery",
       "Psychiatry",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Nampally"
   },
   {
     "id": "H013",
@@ -274,7 +286,8 @@
       "Psychiatry",
       "Dentistry",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Musheerabad"
   },
   {
     "id": "H014",
@@ -293,7 +306,8 @@
       "Ophthalmology",
       "Pathology",
       "General Medicine"
-    ]
+    ],
+    "mandal": "Charminar"
   },
   {
     "id": "H015",
@@ -317,7 +331,8 @@
       "Gastroenterology",
       "General Medicine",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Saidabad"
   },
   {
     "id": "H016",
@@ -340,7 +355,8 @@
       "Pulmonology",
       "Urology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H017",
@@ -361,7 +377,8 @@
       "Critical Care",
       "General Medicine",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Secunderabad"
   },
   {
     "id": "H018",
@@ -385,7 +402,8 @@
       "ENT",
       "Critical Care",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H019",
@@ -405,7 +423,8 @@
       "Fetal Medicine",
       "Pediatric Neurology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Shaikpet"
   },
   {
     "id": "H020",
@@ -428,7 +447,8 @@
       "Critical Care",
       "General Medicine",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
   },
   {
     "id": "H021",
@@ -451,7 +471,8 @@
       "Obstetrics and Gynecology",
       "General Surgery",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
   },
   {
     "id": "H022",
@@ -474,7 +495,8 @@
       "Pulmonology",
       "Urology",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
   },
   {
     "id": "H023",
@@ -493,6 +515,545 @@
       "Pediatrics",
       "Orthopaedics",
       "Emergency Medicine"
-    ]
+    ],
+    "mandal": "Tirumalagiri"
+  },
+  {
+    "id": "H024",
+    "name": "Government Fever Hospital",
+    "type": "Government",
+    "area": "Nallakunta",
+    "phone": "04027567711",
+    "lat": 17.3976,
+    "lng": 78.5048,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Infectious Diseases",
+      "Emergency Medicine"
+    ],
+    "mandal": "Amberpet"
+  },
+  {
+    "id": "H025",
+    "name": "Srikara Hospitals Kachiguda",
+    "type": "Private",
+    "area": "Kachiguda",
+    "phone": "04061657777",
+    "lat": 17.3898,
+    "lng": 78.4954,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Orthopaedics",
+      "Neurology",
+      "General Medicine",
+      "Emergency Medicine"
+    ],
+    "mandal": "Amberpet"
+  },
+  {
+    "id": "H026",
+    "name": "Apollo Hospitals Hyderguda",
+    "type": "Private",
+    "area": "Hyderguda",
+    "phone": "04023554888",
+    "lat": 17.3972,
+    "lng": 78.4787,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Neurology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Himayatnagar"
+  },
+  {
+    "id": "H027",
+    "name": "King Koti District Hospital",
+    "type": "Government",
+    "area": "King Koti",
+    "phone": "04024756000",
+    "lat": 17.3979,
+    "lng": 78.4825,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Obstetrics and Gynecology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Himayatnagar"
+  },
+  {
+    "id": "H028",
+    "name": "CARE Hospitals Nampally",
+    "type": "Private",
+    "area": "Nampally",
+    "phone": "04061656565",
+    "lat": 17.392,
+    "lng": 78.4665,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "General Medicine",
+      "Critical Care",
+      "Emergency Medicine"
+    ],
+    "mandal": "Nampally"
+  },
+  {
+    "id": "H029",
+    "name": "Government ENT Hospital",
+    "type": "Government",
+    "area": "Koti",
+    "phone": "04024657444",
+    "lat": 17.3857,
+    "lng": 78.486,
+    "emergency": false,
+    "trauma": false,
+    "specialties": [
+      "ENT",
+      "Audiology",
+      "Head and Neck Surgery"
+    ],
+    "mandal": "Nampally"
+  },
+  {
+    "id": "H030",
+    "name": "Maternity Hospital, Niloufer",
+    "type": "Government",
+    "area": "Red Hills",
+    "phone": "04023301999",
+    "lat": 17.3928,
+    "lng": 78.457,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Obstetrics and Gynecology",
+      "Neonatology",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Asifnagar"
+  },
+  {
+    "id": "H031",
+    "name": "Deccan Hospital",
+    "type": "Private",
+    "area": "Red Hills",
+    "phone": "04066525252",
+    "lat": 17.3914,
+    "lng": 78.4541,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Asifnagar"
+  },
+  {
+    "id": "H032",
+    "name": "Government Maternity Hospital, Petlaburj",
+    "type": "Government",
+    "area": "Petlaburj",
+    "phone": "04024657500",
+    "lat": 17.3747,
+    "lng": 78.4617,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Obstetrics and Gynecology",
+      "Neonatology",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Bahadurpura"
+  },
+  {
+    "id": "H033",
+    "name": "Princess Esra Hospital",
+    "type": "Government",
+    "area": "Shalibanda",
+    "phone": "04024577555",
+    "lat": 17.3505,
+    "lng": 78.4702,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Bahadurpura"
+  },
+  {
+    "id": "H034",
+    "name": "Government Area Hospital, Malakpet",
+    "type": "Government",
+    "area": "Malakpet",
+    "phone": "04024547888",
+    "lat": 17.3725,
+    "lng": 78.5008,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Saidabad"
+  },
+  {
+    "id": "H035",
+    "name": "Yashoda Hospitals Malakpet",
+    "type": "Private",
+    "area": "Malakpet",
+    "phone": "04024555555",
+    "lat": 17.3745,
+    "lng": 78.501,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Pediatrics",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Saidabad"
+  },
+  {
+    "id": "H036",
+    "name": "Government General Hospital, Kanchanbagh",
+    "type": "Government",
+    "area": "Kanchanbagh",
+    "phone": "04024340333",
+    "lat": 17.3298,
+    "lng": 78.5347,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Bandlaguda"
+  },
+  {
+    "id": "H037",
+    "name": "Owaisi Hospital and Research Centre",
+    "type": "Private",
+    "area": "Kanchanbagh",
+    "phone": "04024340222",
+    "lat": 17.3322,
+    "lng": 78.5354,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Neurology",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Bandlaguda"
+  },
+  {
+    "id": "H038",
+    "name": "Olive Hospitals",
+    "type": "Private",
+    "area": "Mehdipatnam",
+    "phone": "04023514555",
+    "lat": 17.4008,
+    "lng": 78.4388,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Golconda"
+  },
+  {
+    "id": "H039",
+    "name": "Government Area Hospital, Golconda",
+    "type": "Government",
+    "area": "Golconda",
+    "phone": "04023515555",
+    "lat": 17.3846,
+    "lng": 78.4038,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Golconda"
+  },
+  {
+    "id": "H040",
+    "name": "Princess Durru Shehvar Children's and General Hospital",
+    "type": "Private",
+    "area": "Yakutpura",
+    "phone": "04024570000",
+    "lat": 17.3638,
+    "lng": 78.488,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Pediatrics",
+      "General Medicine",
+      "Emergency Medicine"
+    ],
+    "mandal": "Charminar"
+  },
+  {
+    "id": "H041",
+    "name": "Government Unani Hospital",
+    "type": "Government",
+    "area": "Charminar",
+    "phone": "04024522999",
+    "lat": 17.3616,
+    "lng": 78.4747,
+    "emergency": false,
+    "trauma": false,
+    "specialties": [
+      "Unani Medicine",
+      "General Medicine"
+    ],
+    "mandal": "Charminar"
+  },
+  {
+    "id": "H042",
+    "name": "Aster Prime Hospital",
+    "type": "Private",
+    "area": "Ameerpet",
+    "phone": "04049594959",
+    "lat": 17.438,
+    "lng": 78.4482,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Ameerpet"
+  },
+  {
+    "id": "H043",
+    "name": "Ameerpet Government Hospital",
+    "type": "Government",
+    "area": "Ameerpet",
+    "phone": "04023730000",
+    "lat": 17.4372,
+    "lng": 78.4488,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Ameerpet"
+  },
+  {
+    "id": "H044",
+    "name": "Yashoda Hospitals Secunderabad",
+    "type": "Private",
+    "area": "Secunderabad",
+    "phone": "04027703999",
+    "lat": 17.4436,
+    "lng": 78.4983,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Nephrology",
+      "General Medicine",
+      "Emergency Medicine"
+    ],
+    "mandal": "Tirumalagiri"
+  },
+  {
+    "id": "H045",
+    "name": "Government Area Hospital, Bowenpally",
+    "type": "Government",
+    "area": "Bowenpally",
+    "phone": "04027790000",
+    "lat": 17.466,
+    "lng": 78.4785,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Tirumalagiri"
+  },
+  {
+    "id": "H046",
+    "name": "Virinchi Hospitals",
+    "type": "Private",
+    "area": "Banjara Hills",
+    "phone": "04046999999",
+    "lat": 17.415,
+    "lng": 78.438,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "General Medicine",
+      "Emergency Medicine"
+    ],
+    "mandal": "Shaikpet"
+  },
+  {
+    "id": "H047",
+    "name": "Apollo Hospitals Jubilee Hills",
+    "type": "Private",
+    "area": "Jubilee Hills",
+    "phone": "04023607777",
+    "lat": 17.4239,
+    "lng": 78.4104,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Shaikpet"
+  },
+  {
+    "id": "H048",
+    "name": "KIMS Hospitals",
+    "type": "Private",
+    "area": "Minister Road",
+    "phone": "04044885000",
+    "lat": 17.443,
+    "lng": 78.503,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiology",
+      "Neurosurgery",
+      "Oncology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Mareedpally"
+  },
+  {
+    "id": "H049",
+    "name": "Yashoda Hospitals Somajiguda",
+    "type": "Private",
+    "area": "Somajiguda",
+    "phone": "04045674567",
+    "lat": 17.4218,
+    "lng": 78.4611,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Nephrology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Khairatabad"
+  },
+  {
+    "id": "H050",
+    "name": "Nizam's Institute of Medical Sciences (NIMS)",
+    "type": "Government",
+    "area": "Punjagutta",
+    "phone": "04023489000",
+    "lat": 17.4239,
+    "lng": 78.4519,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Neurology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Khairatabad"
+  },
+  {
+    "id": "H051",
+    "name": "KIMS-Sunshine Hospital",
+    "type": "Private",
+    "area": "Begumpet",
+    "phone": "04044550000",
+    "lat": 17.4442,
+    "lng": 78.4661,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Orthopaedics",
+      "Trauma Care",
+      "Cardiology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Secunderabad"
+  },
+  {
+    "id": "H052",
+    "name": "Gandhi Hospital",
+    "type": "Government",
+    "area": "Musheerabad",
+    "phone": "04027505566",
+    "lat": 17.4041,
+    "lng": 78.5019,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "General Surgery",
+      "Cardiology",
+      "Emergency Medicine"
+    ],
+    "mandal": "Musheerabad"
+  },
+  {
+    "id": "H053",
+    "name": "Musheerabad Government Hospital",
+    "type": "Government",
+    "area": "Musheerabad",
+    "phone": "04027500000",
+    "lat": 17.4102,
+    "lng": 78.4984,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Pediatrics",
+      "Emergency Medicine"
+    ],
+    "mandal": "Musheerabad"
   }
 ]

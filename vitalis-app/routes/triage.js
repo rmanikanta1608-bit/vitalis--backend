@@ -59,8 +59,8 @@ function nearestHospitals({ dept, secondary, urgency, trauma, lat, lng, limit = 
   if (candidates.length === 0) {
     candidates = hospitals.filter(
       (h) =>
-        typeof h.lat === "number" &&
-        typeof h.lng === "number"
+        Number.isFinite(h.lat) &&
+        Number.isFinite(h.lng)
     );
   }
 

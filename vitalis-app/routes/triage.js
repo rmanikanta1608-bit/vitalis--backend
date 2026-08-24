@@ -44,28 +44,78 @@ function matchSymptom(query) {
 }
 
 function nearestHospitals({ dept, secondary, urgency, trauma, lat, lng, limit = 5 }) {
-  let candidates = hospitals.filter(
-    (h) => h.specialties.includes(dept) || (secondary && h.specialties.includes(secondary))
-  );
-  if (urgency === "Emergency") candidates = candidates.filter((h) => h.emergency);
-  if (trauma) candidates = candidates.filter((h) => h.trauma);
-  if (candidates.length === 0) candidates = hospitals.filter((h) => h.emergency); // fallback
+
+  // First try hospitals matching the required specialty
+  let candidates = hospitals.filter((h) => {
+    const specialties = Array.isArray(h.specialties) ? h.specialties : [];
+
+    return (
+      specialties.includes(dept) ||
+      (secondary && specialties.includes(secondary))
+    );
+  });
+
+  // If no specialty match is found, use all valid nearby facilities
+  if (candidates.length === 0) {
+    candidates = hospitals.filter(
+      (h) =>
+        typeof h.lat === "number" &&
+        typeof h.lng === "number"
+    );
+  }
+
+  // For emergency cases, prefer emergency-marked hospitals
+  if (urgency === "Emergency") {
+    const emergencyHospitals = candidates.filter((h) => h.emergency);
+
+    if (emergencyHospitals.length > 0) {
+      candidates = emergencyHospitals;
+    }
+  }
+
+  // For trauma cases, prefer trauma-marked hospitals
+  if (trauma) {
+    const traumaHospitals = candidates.filter((h) => h.trauma);
+
+    if (traumaHospitals.length > 0) {
+      candidates = traumaHospitals;
+    }
+  }
 
   const withDistance = candidates.map((h) => ({
     ...h,
-    distanceKm: Number(haversine(lat, lng, h.lat, h.lng).toFixed(1)),
+    distanceKm: Number(
+      haversine(lat, lng, h.lat, h.lng).toFixed(1)
+    ),
   }));
+
   withDistance.sort((a, b) => a.distanceKm - b.distanceKm);
+
   return withDistance.slice(0, limit);
 }
-
 function nearestEmergencyHospitals({ lat, lng, limit = 5 }) {
-  const candidates = hospitals.filter((h) => h.emergency);
+
+  // Prefer facilities explicitly marked as emergency
+  let candidates = hospitals.filter((h) => h.emergency);
+
+  // If no emergency flag exists, fall back to nearest valid facilities
+  if (candidates.length === 0) {
+    candidates = hospitals.filter(
+      (h) =>
+        typeof h.lat === "number" &&
+        typeof h.lng === "number"
+    );
+  }
+
   const withDistance = candidates.map((h) => ({
     ...h,
-    distanceKm: Number(haversine(lat, lng, h.lat, h.lng).toFixed(1)),
+    distanceKm: Number(
+      haversine(lat, lng, h.lat, h.lng).toFixed(1)
+    ),
   }));
+
   withDistance.sort((a, b) => a.distanceKm - b.distanceKm);
+
   return withDistance.slice(0, limit);
 }
 

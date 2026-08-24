@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VITALIS — What's happening, right now?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div id="gate" class="loading-gate">Checking your session…</div>
+
+<div id="appRoot" style="display:none;">
+  <header>
+    <div class="header-inner">
+      <div class="wordmark"><div class="mark">V</div><span>VITALIS</span></div>
+      <div class="header-right">
+        <div class="user-pill">
+          <div class="user-avatar" id="userInitial">?</div>
+          <span id="userName">—</span>
+        </div>
+        <button class="logout-btn" id="logoutBtn">Sign out</button>
+        <a class="sos-pill" href="tel:108"><span class="dot"></span>Call ambulance · 108</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="eyebrow">Hyderabad emergency triage</span>
+    <h1>What's happening, right now?</h1>
+    <p class="sub">Describe the injury or symptom. You'll get immediate precautions, then the nearest hospital equipped to treat it.</p>
+    <div class="search-box">
+      <input id="symptomInput" type="text" placeholder="e.g. chest pain, road accident, snake bite…" list="symptomSuggestions" autocomplete="off">
+      <datalist id="symptomSuggestions"></datalist>
+      <button id="findBtn">Find help</button>
+    </div>
+    <div class="chips" id="chipRow"></div>
+
+    <button id="emergencyBtn" class="emergency-btn">🚨 It's an emergency — find the nearest hospital now</button>
+
+    <div class="loc-status" id="locStatus">Locating you to sort hospitals by distance…</div>
+  </section>
+
+  <section id="results">
+    <div class="match-row">
+      <h2 id="matchTitle"></h2>
+      <span class="dept-chip" id="deptChip"></span>
+    </div>
+
+    <div class="gauge-wrap">
+      <div class="gauge-label"><span>Routine</span><span>Urgent</span><span>Emergency</span></div>
+      <div class="gauge-track">
+        <div class="gauge-seg"></div><div class="gauge-seg"></div><div class="gauge-seg"></div>
+        <div class="gauge-marker" id="gaugeMarker"></div>
+      </div>
+      <div class="gauge-caption" id="gaugeCaption"></div>
+    </div>
+
+    <div class="aid-card" id="aidCard">
+      <h3>🩹 Do this now</h3>
+      <div class="aid-block">
+        <span class="label">Immediate precautions</span>
+        <p id="aidDo"></p>
+      </div>
+      <div class="aid-block">
+        <span class="label">Avoid</span>
+        <p id="aidDont"></p>
+      </div>
+      <div class="aid-block">
+        <span class="label">Call an ambulance if</span>
+        <p class="escalate" id="aidEscalate"></p>
+      </div>
+      <p class="disclaimer">General first-aid guidance based on standard protocols — not a diagnosis or a substitute for professional medical care.</p>
+    </div>
+
+    <div id="hospitalList">
+      <h2>Suitable nearby hospitals</h2>
+      <div class="sub" id="hospitalSub"></div>
+      <div id="hcards"></div>
+    </div>
+  </section>
+
+  <footer>
+    VITALIS — CMR College of Engineering &amp; Technology · Prototype for demonstration only · Always call 108 in a real emergency
+  </footer>
+</div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>

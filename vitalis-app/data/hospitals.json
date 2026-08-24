@@ -1,0 +1,298 @@
+[
+  {
+    "id": "H001",
+    "name": "Apollo Hospitals Jubilee Hills",
+    "type": "Private",
+    "area": "Jubilee Hills",
+    "phone": "04023607777",
+    "lat": 17.4239,
+    "lng": 78.4104,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Orthopaedics",
+      "Nephrology",
+      "Organ Transplant",
+      "Gastroenterology",
+      "Pulmonology",
+      "ENT",
+      "Bariatric Surgery",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H002",
+    "name": "Yashoda Hospitals Somajiguda",
+    "type": "Private",
+    "area": "Somajiguda",
+    "phone": "04045674567",
+    "lat": 17.4218,
+    "lng": 78.4611,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Neurosciences",
+      "Nephrology",
+      "Organ Transplant",
+      "Orthopaedics",
+      "Spine Surgery",
+      "Radiation Oncology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H003",
+    "name": "Yashoda Hospitals Secunderabad",
+    "type": "Private",
+    "area": "Secunderabad",
+    "phone": "04027703999",
+    "lat": 17.4436,
+    "lng": 78.4983,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Neurosciences",
+      "Nephrology",
+      "General Medicine",
+      "Gastroenterology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H004",
+    "name": "Yashoda Hospitals Malakpet",
+    "type": "Private",
+    "area": "Malakpet",
+    "phone": "04024556257",
+    "lat": 17.3745,
+    "lng": 78.501,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Pediatrics",
+      "Orthopaedics",
+      "Obstetrics and Gynecology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H005",
+    "name": "Yashoda Hospitals Hitec City",
+    "type": "Private",
+    "area": "Hitec City",
+    "phone": "04045674567",
+    "lat": 17.4483,
+    "lng": 78.3809,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Neurosciences",
+      "Orthopaedics",
+      "General Medicine",
+      "Gastroenterology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H006",
+    "name": "KIMS Hospitals Secunderabad",
+    "type": "Private",
+    "area": "Secunderabad",
+    "phone": "04044885000",
+    "lat": 17.4441,
+    "lng": 78.4991,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiac Surgery",
+      "Organ Transplant",
+      "Neurosurgery",
+      "Oncology",
+      "Bariatric Surgery",
+      "Urology",
+      "Nephrology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H007",
+    "name": "Rainbow Children's Hospital Banjara Hills",
+    "type": "Private",
+    "area": "Banjara Hills",
+    "phone": "04044224222",
+    "lat": 17.4126,
+    "lng": 78.4344,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Obstetrics and Gynecology",
+      "Fetal Medicine",
+      "Pediatric Neurology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H008",
+    "name": "CARE Hospitals Banjara Hills",
+    "type": "Private",
+    "area": "Banjara Hills",
+    "phone": "04061651000",
+    "lat": 17.4123,
+    "lng": 78.44,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiac Sciences",
+      "Cardiothoracic Surgery",
+      "Critical Care",
+      "Nephrology",
+      "General Medicine",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H009",
+    "name": "Continental Hospitals Gachibowli",
+    "type": "Private",
+    "area": "Gachibowli",
+    "phone": "04067000000",
+    "lat": 17.4156,
+    "lng": 78.3487,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiac Sciences",
+      "Oncology",
+      "Neurosciences",
+      "Orthopaedics",
+      "Pediatrics",
+      "Transplant",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H010",
+    "name": "AIG Hospitals",
+    "type": "Private",
+    "area": "Gachibowli",
+    "phone": "04042444222",
+    "lat": 17.4416,
+    "lng": 78.3489,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Gastroenterology",
+      "Hepatology",
+      "Liver Transplant",
+      "General Medicine",
+      "Oncology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H011",
+    "name": "Nizam's Institute of Medical Sciences (NIMS)",
+    "type": "Government",
+    "area": "Punjagutta",
+    "phone": "04023489000",
+    "lat": 17.4239,
+    "lng": 78.4519,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "General Medicine",
+      "Surgery",
+      "Cardiology",
+      "Neurology",
+      "Orthopaedics",
+      "Oncology",
+      "Nephrology",
+      "Urology",
+      "Gastroenterology",
+      "Pediatrics",
+      "Obstetrics and Gynecology",
+      "Emergency Medicine",
+      "Neurosurgery"
+    ]
+  },
+  {
+    "id": "H012",
+    "name": "Osmania General Hospital",
+    "type": "Government",
+    "area": "Afzal Gunj",
+    "phone": "04024600121",
+    "lat": 17.372,
+    "lng": 78.474,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "Cardiology",
+      "Neurology",
+      "Orthopaedics",
+      "Surgery",
+      "Psychiatry",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H013",
+    "name": "Gandhi Hospital",
+    "type": "Government",
+    "area": "Musheerabad",
+    "phone": "04027505566",
+    "lat": 17.4041,
+    "lng": 78.5019,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "General Surgery",
+      "Cardiology",
+      "Neurology",
+      "Neurosurgery",
+      "Endocrinology",
+      "Cardiothoracic Surgery",
+      "Pediatric Surgery",
+      "Plastic Surgery",
+      "Urology",
+      "Obstetrics and Gynecology",
+      "Psychiatry",
+      "Dentistry",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H014",
+    "name": "Government Nizamia General Hospital",
+    "type": "Government",
+    "area": "Charminar",
+    "phone": "04024521652",
+    "lat": 17.3605,
+    "lng": 78.475,
+    "emergency": false,
+    "trauma": false,
+    "specialties": [
+      "Gynaecology",
+      "Surgery",
+      "Dentistry",
+      "Ophthalmology",
+      "Pathology",
+      "General Medicine"
+    ]
+  }
+]

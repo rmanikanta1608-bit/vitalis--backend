@@ -294,5 +294,205 @@
       "Pathology",
       "General Medicine"
     ]
+  },
+  {
+    "id": "H015",
+    "name": "Kamineni Hospitals LB Nagar",
+    "type": "Private",
+    "area": "LB Nagar",
+    "phone": "04024022272",
+    "lat": 17.3465,
+    "lng": 78.551,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiology",
+      "Cardiothoracic Surgery",
+      "Oncology",
+      "Orthopaedics",
+      "Urology",
+      "Nephrology",
+      "Neurosurgery",
+      "Obstetrics and Gynecology",
+      "Gastroenterology",
+      "General Medicine",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H016",
+    "name": "Star Hospitals Banjara Hills",
+    "type": "Private",
+    "area": "Banjara Hills",
+    "phone": "9100911911",
+    "lat": 17.4156,
+    "lng": 78.4347,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Nephrology",
+      "Neurology",
+      "Cardiology",
+      "Orthopaedics",
+      "Gastroenterology",
+      "ENT",
+      "Critical Care",
+      "Pulmonology",
+      "Urology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H017",
+    "name": "KIMS-Sunshine Hospital Begumpet",
+    "type": "Private",
+    "area": "Begumpet",
+    "phone": "04044550000",
+    "lat": 17.4442,
+    "lng": 78.4661,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Orthopaedics",
+      "Joint Replacement",
+      "Trauma Care",
+      "Cardiology",
+      "Neurosurgery",
+      "Critical Care",
+      "General Medicine",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H018",
+    "name": "Medicover Hospitals Hitec City",
+    "type": "Private",
+    "area": "Hitec City",
+    "phone": "04061626324",
+    "lat": 17.445,
+    "lng": 78.38,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "Oncology",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Urology",
+      "Neurology",
+      "Pulmonology",
+      "ENT",
+      "Critical Care",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H019",
+    "name": "Rainbow Children's Hospital and BirthRight Kondapur",
+    "type": "Private",
+    "area": "Kondapur",
+    "phone": "18002122",
+    "lat": 17.4615,
+    "lng": 78.3629,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Obstetrics and Gynecology",
+      "Fetal Medicine",
+      "Pediatric Neurology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H020",
+    "name": "KIMS Hospitals Kompally",
+    "type": "Private",
+    "area": "Kompally",
+    "phone": "8008108108",
+    "lat": 17.5443,
+    "lng": 78.4903,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Neurosurgery",
+      "Orthopaedics",
+      "Oncology",
+      "Obstetrics and Gynecology",
+      "Pediatrics",
+      "Critical Care",
+      "General Medicine",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H021",
+    "name": "MedOne Hospitals Kompally",
+    "type": "Private",
+    "area": "Kompally",
+    "phone": "04069699999",
+    "lat": 17.539,
+    "lng": 78.487,
+    "emergency": true,
+    "trauma": true,
+    "specialties": [
+      "Critical Care",
+      "Trauma Care",
+      "Cardiology",
+      "Neurology",
+      "Neurosurgery",
+      "Nephrology",
+      "Gastroenterology",
+      "Obstetrics and Gynecology",
+      "General Surgery",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H022",
+    "name": "Wellness Hospitals Kompally",
+    "type": "Private",
+    "area": "Kompally",
+    "phone": "04061626336",
+    "lat": 17.541,
+    "lng": 78.485,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "Cardiology",
+      "General Medicine",
+      "General Surgery",
+      "Gynaecology",
+      "Neurology",
+      "Neurosurgery",
+      "Orthopaedics",
+      "Pulmonology",
+      "Urology",
+      "Emergency Medicine"
+    ]
+  },
+  {
+    "id": "H023",
+    "name": "CMR Hospital Kandlakoya",
+    "type": "Private",
+    "area": "Kandlakoya",
+    "phone": "9988448777",
+    "lat": 17.605,
+    "lng": 78.485,
+    "emergency": true,
+    "trauma": false,
+    "specialties": [
+      "General Medicine",
+      "General Surgery",
+      "Obstetrics and Gynecology",
+      "Pediatrics",
+      "Orthopaedics",
+      "Emergency Medicine"
+    ]
   }
 ]
